@@ -1,0 +1,16 @@
+import React from 'react';
+import './Card.css';
+
+
+const Card = ({emoji, heading, detail}) => {
+    return (
+        <div className="card">
+            <img src={emoji} alt="emoji" />
+            <span>{heading}</span>
+            <span>{detail}</span>
+            <button className='butto c-button'>Learn more</button>
+        </div>
+    );
+};
+
+export default Card;

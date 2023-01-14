@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavBar.css'
-function NavBar(props) {
+function NavBar() {
     return (
        <div className="n-wrapper">
             <div className="n-left">
@@ -18,7 +18,7 @@ function NavBar(props) {
                     </ul>
                 </div>
                 <button className="button n-button">
-                    Contact 
+                    Contact
                 </button>
             </div>
        </div>
